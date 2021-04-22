@@ -1,11 +1,3 @@
-import cv2
-import time
-import numpy as np
-import random
-import pyautogui
-
-from pyngrok import ngrok
-from datetime import datetime
 from twilio.rest import Client
 from private_info import PHONE_NUMBER,TWILIO_ACCOUNT_SID,TWILIO_AUTH_TOKEN, TWILIO_NUMBER
 
