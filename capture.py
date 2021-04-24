@@ -10,6 +10,7 @@ import numpy as np
 import random
 import pyautogui
 
+# from http_server_run import simple_string
 from pyngrok import ngrok
 from datetime import datetime
 from twilio.rest import Client
@@ -19,15 +20,12 @@ from private_info import PHONE_NUMBER,TWILIO_ACCOUNT_SID,TWILIO_AUTH_TOKEN, TWIL
 # <NgrokTunnel: "http://<public_sub>.ngrok.io" -> "http://localhost:80">
 http_tunnel = ngrok.connect()
 
-tunnels = ngrok.get_tunnels()
-
-
 url = http_tunnel.public_url
-print(url)
 
-# PORT = 80
-
-time_period_minutes = 10
+time_period_minutes = 15
+# time_period_minutes = 5
+# time_period_minutes = 0.1
+# time_period_minutes = 0.05
 
 sec_per_min = 60
 

@@ -12,15 +12,15 @@ path = r'C:\Users\User\Downloads\chromedriver_win32 (1)\chromedriver.exe'
 driver = webdriver.Chrome(path)
 
 driver.get("https://web.whatsapp.com/")
-# time.sleep()
+time.sleep(1)
 wait = WebDriverWait(driver, 600)
 # Replace 'My Bsnl' with the name of your friend or group name
 # target = '"Yishai speaks with Shira"'
 target = '"Yishai speaks with Shira"'
 
 # Replace the below string with your own message
-string = sys.argv[1]
-# string = 'testing!'
+# string = sys.argv[1]
+string = 'testing!'
 
 x_arg = '//span[contains(@title,' + target + ')]'
 group_title = wait.until(EC.presence_of_element_located((
