@@ -9,9 +9,9 @@ from private_info import PHONE_NUMBER,TWILIO_NUMBER
 def current_time():
     return str(datetime.now()).split()[1][:5]
     
-def public_url():
-    http_tunnel = ngrok.connect()
-    return http_tunnel.public_url
+# def public_url():
+#     http_tunnel = ngrok.connect()
+#     return http_tunnel.public_url
 
 def intervals(usage):    
     if usage == 'test':
@@ -29,11 +29,11 @@ def image(filename):
     cv2.imwrite(filename, image) # store image in file
     return filename
 
-def img_url(url_stem,filename):
-    img_url = f"{url_stem}/{filename}" # create address to access image
-    return img_url
+# def img_url(url_stem,filename):
+#     img_url = f"{url_stem}/{filename}" # create address to access image
+#     return img_url
 
-def send(client,body,img_url=None):
-    client.messages.create(
-        from_=f'whatsapp:+{TWILIO_NUMBER}',to=f"whatsapp:+{PHONE_NUMBER}",
-        body=body,media_url=[img_url]) 
+# def send(client,body,img_url=None):
+#     client.messages.create(
+#         from_=f'whatsapp:+{TWILIO_NUMBER}',to=f"whatsapp:+{PHONE_NUMBER}",
+#         body=body,media_url=[img_url]) 

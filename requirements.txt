@@ -1,8 +1,7 @@
-# chromium-browser
 numpy
 opencv-python
 pyautogui
-pyngrok
-pywhatkit
-selenium
-twilio
+# pyngrok
+# pywhatkit
+# selenium
+# twilio

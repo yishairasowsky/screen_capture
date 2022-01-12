@@ -1,13 +1,12 @@
-import smtplib
-from email.mime.multipart import MIMEMultipart
-from email.mime.text import MIMEText
-from email.mime.base import MIMEBase
-from email import encoders
-
-import time
 import numpy as np
-from private_info import TWILIO_ACCOUNT_SID,TWILIO_AUTH_TOKEN, sender_email, receiver_email, sender_email_password
-from functions import current_time, img_url,public_url,intervals,image,send
+import smtplib
+import time
+
+from email import encoders
+from email.mime.base import MIMEBase
+from email.mime.multipart import MIMEMultipart
+from functions import current_time,intervals,image
+from private_info import sender_email, receiver_email, sender_email_password
 
 # usage = 'test'
 usage = 'real'
