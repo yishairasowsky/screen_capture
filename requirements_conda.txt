@@ -1,0 +1,11 @@
+# Install miniconda -> https://docs.conda.io/en/latest/miniconda.html
+# Install git -> conda install -c anaconda git
+# Create virtual environment -> conda create -n screen_capture
+# Install pip -> conda install -c anaconda pip
+# Activate virtual environment -> conda activate screen_capture
+# Install requirements -> conda install --file requirements_conda.txt
+# conda install -c conda-forge yagmail
+# conda install -c conda-forge premailer
+# conda install -c kieranharding py2exe
+numpy
+pip

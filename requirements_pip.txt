@@ -1,0 +1,6 @@
+# Install requirements -> pip install -r requirements_pip.txt
+opencv-python==4.5.3.56
+pyautogui
+pyinstaller
+# pip install Pillow --upgrade
+Pillow==9.2.0
