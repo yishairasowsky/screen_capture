@@ -8,7 +8,7 @@ Screen capture is an end-to-end open source platform for computer monitor survei
 Screen capture was originally developed to help family members retain accountability for what content they are viewing on the computer when otherwise unsupervised. The system is
 versatile enough to be applicable in other use cases as well.
 
-Feel free to share feedback or questions with me by emailing[yishairasowsky@gmail.com](yishairasowsky@gmail.com).
+Feel free to share feedback or questions with me by emailing me at [yishairasowsky@gmail.com](yishairasowsky@gmail.com).
 
 ## Install
 
